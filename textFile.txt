@@ -1,1 +1,7 @@
 this is textFile.txt created for testing
+this is textFile.txt created for testing
+this is textFile.txt created for testing
+this is textFile.txt created for testing
+this is textFile.txt created for testing
+this is textFile.txt created for testing
+now modified
