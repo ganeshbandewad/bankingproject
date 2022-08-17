@@ -12,7 +12,7 @@ public class TC_LoginTest_001 extends BaseClass{
 
 	
 	@Test
-	public void loginTest() throws IOException
+	public void loginTest() throws IOException, InterruptedException
 	{
 		
 		//driver.get(baseurl);
@@ -25,7 +25,7 @@ public class TC_LoginTest_001 extends BaseClass{
 		lp.setPassword(password);
 		Logger.info("emtered pw");
 		System.out.println("pass entered");
-
+          Thread.sleep(5000);
     	lp.clickSubmit();
 		Logger.info("click submit");
 		System.out.println(" login btn click");
